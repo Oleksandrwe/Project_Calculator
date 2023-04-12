@@ -1,0 +1,139 @@
+
+.titleOne {
+
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 500px;
+    border-color: black;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 20px;
+    font-weight: 900;
+    color: rgba(23, 23, 230, 0.829);
+text-decoration: underline yellow;
+    
+
+
+}
+
+
+.calculator-container {
+
+border-color: black;
+border: 30px;
+
+}
+
+.calculator-display {
+
+flex-direction: column;
+justify-content: center;
+padding-left: 500px;
+border-color: black;
+border-radius: 30px;
+font-family: Arial, Helvetica, sans-serif;
+border: 20px;
+
+
+
+}
+
+.previous-operand {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+}
+
+
+.current-operand {
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+}
+
+.digits {
+
+flex-direction: column;
+justify-content: center;
+padding-left: 500px;
+border-color: black;
+border-radius: 30px;
+font-weight: 900;
+
+
+}
+
+
+.number {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgba(49, 78, 206, 0.61);
+    font-weight: 900;
+    transition-duration: 0.5s;
+
+}
+.number:hover {
+
+    background-color: aqua;
+
+}
+
+
+.operator, .decimal, .equals {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgba(250, 225, 0, 0.863); 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+#equal {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 30px;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: rgba(217, 240, 12, 0.74);
+    font-weight: 900;
+}
+
+.clear {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgba(241, 238, 6, 0.808);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 900;
+}
